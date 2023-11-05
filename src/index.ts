@@ -1,3 +1,2 @@
-import { add } from './calc';
-
-console.log(`2 plus 2 is ${add(2, 2)}`);
+import { toRoman } from './roman';
+console.log(`45 as a Roman number = ${toRoman(100)}`);
